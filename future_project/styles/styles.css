@@ -110,10 +110,7 @@ a {
 }
 .btn__primary:hover {
   background-color: var(--primary-color);
-  color: #fff;
-}
-.btn__small {
-  padding: 5px 20px;
+  color: #b0cf25;
 }
 
 .top-navigation nav {
@@ -122,7 +119,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.top-navigation__nav-links, .top-navigation__cotact-us {
+.top-navigation__nav-links, .top-navigation__contact-us {
   display: none;
 }
 @media (min-width: 768px) {
@@ -150,7 +147,7 @@ a {
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
   }
-  .top-navigation__cotact-us {
+  .top-navigation__contact-us {
     display: inline-block;
     font-size: 16px;
     line-height: 20px;
@@ -161,9 +158,9 @@ a {
     font-weight: 600;
     transition: all 0.3s;
   }
-  .top-navigation__cotact-us:hover {
+  .top-navigation__contact-us:hover {
     background-color: var(--primary-color);
-    color: #fff;
+    color: #b2f1de;
   }
   .top-navigation__burger {
     display: none;

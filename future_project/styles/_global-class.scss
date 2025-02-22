@@ -16,10 +16,10 @@
         transition: all 0.3s;
         &:hover {
             background-color: var(--primary-color);
-            color: #fff;
+            color: #b0cf25;
         }
     }
-    &__small {
-        padding: 5px 20px;
-    }
+    // &__small {
+    //     padding: 5px 20px;
+    // }
 }
